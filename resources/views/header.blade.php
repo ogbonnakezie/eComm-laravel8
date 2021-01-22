@@ -32,7 +32,7 @@
     </form>
     <ul class="navbar-nav  my-2 my-lg-0">
      <li class="nav-item active  mr-sm-2">
-        <a class="nav-link" href="#">Cart ({{$total}}) <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/cartlist">Cart ({{$total}}) <span class="sr-only">(current)</span></a>
       </li>
       @if (Session::has('user'))
           
